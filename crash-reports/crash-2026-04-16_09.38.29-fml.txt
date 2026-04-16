@@ -1,0 +1,217 @@
+---- Minecraft Crash Report ----
+// Embeddium instance tainted by mods: [valkyrienskies]
+// Please do not reach out for Embeddium support without removing these mods first.
+// -------
+// You should try our sister game, Minceraft!
+
+Time: 2026-04-16 09:38:29
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?] {re:mixin,re:classloading,pl:mixin:APP:embeddium.mixins.json:core.CrashReportExtenderMixin,pl:mixin:A}
+	at net.minecraftforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:135) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?] {re:classloading}
+	at net.minecraft.client.Minecraft.lambda$new$4(Minecraft.java:571) ~[client-1.20.1-20230612.114412-srg.jar%23277!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft,pl:mixin:APP:railways-common.mixins.json:conductor_possession.MixinMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:valkyrienskies-common.mixins.json:client.MixinMinecraft,pl:mixin:APP:vs_clockwork-common.mixins.json:content.gravitron.MinecraftAccessor,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInScreensThatAllowPlayerMovement,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_AllowMovementDuringScreens_HandleKeybinds,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.Util.m_137521_(Util.java:421) ~[client-1.20.1-20230612.114412-srg.jar%23277!/:?] {re:classloading,re:mixin}
+	at net.minecraft.client.Minecraft.lambda$new$5(Minecraft.java:564) ~[client-1.20.1-20230612.114412-srg.jar%23277!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft,pl:mixin:APP:railways-common.mixins.json:conductor_possession.MixinMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:valkyrienskies-common.mixins.json:client.MixinMinecraft,pl:mixin:APP:vs_clockwork-common.mixins.json:content.gravitron.MinecraftAccessor,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInScreensThatAllowPlayerMovement,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_AllowMovementDuringScreens_HandleKeybinds,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ForgeLoadingOverlay.m_88315_(ForgeLoadingOverlay.java:146) ~[forge-1.20.1-47.4.0-universal.jar%23282!/:?] {re:classloading}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:954) ~[client-1.20.1-20230612.114412-srg.jar%23277!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1146) ~[client-1.20.1-20230612.114412-srg.jar%23277!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft,pl:mixin:APP:railways-common.mixins.json:conductor_possession.MixinMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:valkyrienskies-common.mixins.json:client.MixinMinecraft,pl:mixin:APP:vs_clockwork-common.mixins.json:content.gravitron.MinecraftAccessor,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInScreensThatAllowPlayerMovement,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_AllowMovementDuringScreens_HandleKeybinds,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23277!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:xaeroworldmap.mixins.json:MixinMinecraftClient,pl:mixin:APP:xaeroworldmap.forge.mixins.json:MixinForgeMinecraftClient,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft,pl:mixin:APP:railways-common.mixins.json:conductor_possession.MixinMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:flywheel.impl.mixins.json:MinecraftMixin,pl:mixin:APP:ponder-common.mixins.json:client.WindowResizeMixin,pl:mixin:APP:xaerohud.mixins.json:MixinMinecraftClient,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:valkyrienskies-common.mixins.json:client.MixinMinecraft,pl:mixin:APP:vs_clockwork-common.mixins.json:content.gravitron.MinecraftAccessor,pl:mixin:APP:mixins.essential.json:client.Mixin_IncreaseMenuFpsLimit,pl:mixin:APP:mixins.essential.json:client.Mixin_RunEssentialTasks,pl:mixin:APP:mixins.essential.json:client.MixinMinecraft,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_FixKeybindUnpressedInScreensThatAllowPlayerMovement,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_RecalculateMenuScale,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_AddSPSTitle,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_DisplayScreen,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_UpdateWindowTitle_LoadWorld,pl:mixin:APP:mixins.essential.json:compatibility.vanilla.Mixin_WorkaroundBrokenFramebufferBlitBlending,pl:mixin:APP:mixins.essential.json:events.Mixin_RenderTickEvent_Final,pl:mixin:APP:mixins.essential.json:client.gui.Mixin_AllowMovementDuringScreens_HandleKeybinds,pl:mixin:APP:mixins.essential.json:feature.skin_overwrites.Mixin_InstallTrustingServicesKeyInfo,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor,pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-47.4.0.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.4.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	Design n' Decor (dndecor), Version: 2.1.0
+		at TRANSFORMER/dndecor@2.1.0/dev.lopyluna.dndecor.register.helpers.list_providers.StoneTypeBlockList.get(StoneTypeBlockList.java:37)
+Stacktrace:
+	at dev.lopyluna.dndecor.register.helpers.list_providers.StoneTypeBlockList.get(StoneTypeBlockList.java:37) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+-- MOD dndecor --
+Details:
+	Caused by 0: java.lang.ExceptionInInitializerError
+		at dev.lopyluna.dndecor.DnDecor.<init>(DnDecor.java:71) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+		at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?] {}
+		at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+		at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.0.jar%23279!/:?] {}
+		at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.0.jar%23278!/:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+		at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+
+	Mod File: /Users/gusluberadzki/Documents/curseforge/minecraft/Instances/Create Survival Series/mods/dndecor-2.1.0.jar
+	Failure message: Design n' Decor (dndecor) has failed to load correctly
+		java.lang.ExceptionInInitializerError: null
+	Mod Version: 2.1.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.ArrayIndexOutOfBoundsException: Index 9 out of bounds for length 9
+Stacktrace:
+	at dev.lopyluna.dndecor.register.helpers.list_providers.StoneTypeBlockList.get(StoneTypeBlockList.java:37) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+	at dev.lopyluna.dndecor.register.DnDecorBETypes.lambda$static$10(DnDecorBETypes.java:76) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+	at dev.lopyluna.dndecor.register.helpers.list_providers.StoneTypeBEList.<init>(StoneTypeBEList.java:24) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+	at dev.lopyluna.dndecor.register.DnDecorBETypes.<clinit>(DnDecorBETypes.java:72) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+	at dev.lopyluna.dndecor.DnDecor.<init>(DnDecor.java:71) ~[dndecor-2.1.0.jar%23250!/:2.1.0] {re:classloading}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:77) ~[javafmllanguage-1.20.1-47.4.0.jar%23279!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:126) ~[fmlcore-1.20.1-47.4.0.jar%23278!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Mac OS X (aarch64) version 26.4.1
+	Java Version: 17.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Eclipse Adoptium
+	Memory: 1339702520 bytes (1277 MiB) / 2671771648 bytes (2548 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 8
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M2
+	Identifier: Apple Inc. Family 0xda33d83d Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Avalanche + Blizzard
+	Frequency (GHz): 3.50
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: Apple M2
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MB): 13312.00
+	Virtual memory used (MB): 11122.34
+	Swap memory total (MB): 5120.00
+	Swap memory used (MB): 4171.25
+	JVM Flags: 3 total; -Xss1M -Xmx4096m -Xms256m
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar essential-loader TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		kotlinforforge@4.12.0
+		javafml@null
+		lowcodefml@null
+	Mod List: 
+		create_tweaked_controllers-1.20.1-1.2.5.jar       |Create: Tweaked Controllers   |create_tweaked_controllers    |1.20.1-1.2.5        |COMMON_SET|Manifest: NOSIGNATURE
+		kuma-api-forge-20.1.12+1.20.1.jar                 |KumaAPI                       |kuma_api                      |20.1.12             |COMMON_SET|Manifest: NOSIGNATURE
+		copycats-3.0.4+mc.1.20.1-forge.jar                |Create: Copycats+             |copycats                      |3.0.4+mc.1.20.1-forg|COMMON_SET|Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.130.jar                  |Just Enough Items             |jei                           |15.20.0.130         |COMMON_SET|Manifest: NOSIGNATURE
+		xaerolib-forge-1.20.1-1.1.0.jar                   |XaeroLib                      |xaerolib                      |1.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		tacz-1.20.1-1.1.7-hotfix2.jar                     |Timeless & Classics Guns: Zero|tacz                          |1.1.7-hotfix2       |COMMON_SET|Manifest: NOSIGNATURE
+		sophisticatedcore-1.20.1-1.3.21.1676.jar          |Sophisticated Core            |sophisticatedcore             |1.3.21.1676         |COMMON_SET|Manifest: NOSIGNATURE
+		create_jetpack-forge-4.4.6.jar                    |Create Jetpack                |create_jetpack                |4.4.6               |COMMON_SET|Manifest: NOSIGNATURE
+		waystones-forge-1.20.1-14.1.20.jar                |Waystones                     |waystones                     |14.1.20             |COMMON_SET|Manifest: NOSIGNATURE
+		CreateTankDefenses v0.80.jar                      |Create: Tank Defenses         |create_tank_defenses          |0.80                |COMMON_SET|Manifest: NOSIGNATURE
+		ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar   |Ritchie's Projectile Library  |ritchiesprojectilelib         |2.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+		xaeroworldmap-forge-1.20.1-1.40.11.jar            |Xaero's World Map             |xaeroworldmap                 |1.40.11             |COMMON_SET|Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.6.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.6        |COMMON_SET|Manifest: NOSIGNATURE
+		GlitchCore-forge-1.20.1-0.0.1.1.jar               |GlitchCore                    |glitchcore                    |0.0.1.1             |COMMON_SET|Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.20.1-3.24.35.1675.jar    |Sophisticated Backpacks       |sophisticatedbackpacks        |3.24.35.1675        |COMMON_SET|Manifest: NOSIGNATURE
+		createdieselgenerators-1.20.1-1.3.11.jar          |Create: Diesel Generators     |createdieselgenerators        |1.20.1-1.3.11       |COMMON_SET|Manifest: NOSIGNATURE
+		Steam_Rails-1.6.14-beta+forge-mc1.20.1.jar        |Create: Steam 'n' Rails       |railways                      |1.6.14-beta+forge-mc|COMMON_SET|Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.3.38-all.jar                  |Balm                          |balm                          |7.3.38              |COMMON_SET|Manifest: NOSIGNATURE
+		carryon-forge-1.20.1-2.1.2.7.jar                  |Carry On                      |carryon                       |2.1.2.7             |COMMON_SET|Manifest: NOSIGNATURE
+		cloth-config-forge-11.1.106.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.106            |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.0-universal.jar                 |Forge                         |forge                         |47.4.0              |COMMON_SET|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		s_a_b-1.4.3.jar                                   |Steel armor blocks            |s_a_b                         |1.4.3               |COMMON_SET|Manifest: NOSIGNATURE
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		createmissiles-1.0.1+forge-1.20.1-build.644.jar   |Create Missiles               |createmissiles                |1.0.1+forge-1.20.1-b|COMMON_SET|Manifest: NOSIGNATURE
+		create_connected-1.1.13-mc1.20.1-all.jar          |Create: Connected             |create_connected              |1.1.13-mc1.20.1     |COMMON_SET|Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |COMMON_SET|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		TerraBlender-forge-1.20.1-3.0.1.10.jar            |TerraBlender                  |terrablender                  |3.0.1.10            |COMMON_SET|Manifest: NOSIGNATURE
+		BiomesOPlenty-forge-1.20.1-19.0.0.96.jar          |Biomes O' Plenty              |biomesoplenty                 |19.0.0.96           |COMMON_SET|Manifest: NOSIGNATURE
+		Jade-1.20.1-Forge-11.13.2.jar                     |Jade                          |jade                          |11.13.2+forge       |COMMON_SET|Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.12.32_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.12.32             |COMMON_SET|Manifest: NOSIGNATURE
+		createendertransmission-2.1.1-1.20.1.jar          |Create Ender Transmission     |createendertransmission       |2.1.1-1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		lrtactical-1.20.1-0.3.0.jar                       |LesRaisins Tactical Equipments|lrtactical                    |0.3.0               |COMMON_SET|Manifest: NOSIGNATURE
+		kffmod-4.12.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.12.0              |COMMON_SET|Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-1.0.5.jar                   |Flywheel                      |flywheel                      |1.0.5               |COMMON_SET|Manifest: NOSIGNATURE
+		Ponder-Forge-1.20.1-1.0.91.jar                    |Ponder                        |ponder                        |1.0.91              |COMMON_SET|Manifest: NOSIGNATURE
+		xaerominimap-forge-1.20.1-25.3.10.jar             |Xaero's Minimap               |xaerominimap                  |25.3.10             |COMMON_SET|Manifest: NOSIGNATURE
+		endlessammo-1.2.0.jar                             |TACZAddonTemplate             |endlessammo                   |1.2.0               |COMMON_SET|Manifest: NOSIGNATURE
+		CreateOPlenty-Create+6.0.7-3.0.jar                |Create O' Plenty              |createoplenty                 |3.0                 |COMMON_SET|Manifest: NOSIGNATURE
+		DeltaForce Melee Pack-0.1.0.jar                   |DeltaForce Melee Pack         |delta_wt                      |0.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		create_radar-0.4.3+mc1.20.1.jar                   |Create: Radars                |create_radar                  |0.3                 |COMMON_SET|Manifest: NOSIGNATURE
+		createbigcannons-5.10.2-mc.1.20.1-forge.jar       |Create Big Cannons            |createbigcannons              |5.10.2              |COMMON_SET|Manifest: NOSIGNATURE
+		create-1.20.1-6.0.8.jar                           |Create                        |create                        |6.0.8               |COMMON_SET|Manifest: NOSIGNATURE
+		createdeco-2.0.3-1.20.1-forge.jar                 |Create Deco                   |createdeco                    |2.0.3-1.20.1-forge  |COMMON_SET|Manifest: NOSIGNATURE
+		Create Encased-1.20.1-1.8-ht2.jar                 |Create Encased                |createcasing                  |1.8-ht2             |COMMON_SET|Manifest: NOSIGNATURE
+		interiors-1.20.1-forge-0.6.0.jar                  |Create: Interiors             |interiors                     |0.6.0               |COMMON_SET|Manifest: NOSIGNATURE
+		tfmg-1.0.2f.jar                                   |Create: The Factory Must Grow |tfmg                          |1.0.2f              |COMMON_SET|Manifest: NOSIGNATURE
+		dndecor-2.1.0.jar                                 |Design n' Decor               |dndecor                       |2.1.0               |ERROR     |Manifest: NOSIGNATURE
+		FramedBlocks-9.4.3.jar                            |FramedBlocks                  |framedblocks                  |9.4.3               |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |COMMON_SET|Manifest: NOSIGNATURE
+		creategoggles-1.20.1-6.1.0-[FORGE].jar            |Create Goggles                |creategoggles                 |6.1.0               |COMMON_SET|Manifest: NOSIGNATURE
+		kelvin-forge-1.20.1-0.5.0+b79a61b0b5.jar          |Kelvin                        |kelvin                        |1.20.1-0.5.0+b79a61b|COMMON_SET|Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |COMMON_SET|Manifest: NOSIGNATURE
+		cherishedworlds-forge-6.1.7+1.20.1.jar            |Cherished Worlds              |cherishedworlds               |6.1.7+1.20.1        |COMMON_SET|Manifest: NOSIGNATURE
+		cbc_at_Forge_1.20.1_0.1.3b.jar                    |CBC Advanced Technology       |cbc_at                        |0.1.2b-1.20.1       |COMMON_SET|Manifest: NOSIGNATURE
+		create_more_features-0.8.0-forge-1.20.1.jar       |Create: more features         |create_more_features          |0.8.0               |COMMON_SET|Manifest: NOSIGNATURE
+		flightlib-forge-2.2.2.jar                         |Flight Lib                    |flightlib                     |2.2.2               |COMMON_SET|Manifest: NOSIGNATURE
+		FallingTree-1.20.1-4.3.4.jar                      |FallingTree                   |fallingtree                   |4.3.4               |COMMON_SET|Manifest: 3c:8e:df:6c:df:a6:2a:9f:af:64:ea:04:9a:cf:65:92:3b:54:93:0e:96:50:b4:52:e1:13:42:18:2b:ae:40:29
+		createtaczauto-1.5.1-forge-1.20.1.jar             |Create: TacZ Automation       |createtaczauto                |1.5.1               |COMMON_SET|Manifest: NOSIGNATURE
+		valkyrienskies-120-2.4.9.jar                      |Valkyrien Skies 2             |valkyrienskies                |2.4.9               |COMMON_SET|Manifest: NOSIGNATURE
+		clockwork-0.5.5.2.jar                             |Clockwork                     |vs_clockwork                  |0.5.5.2             |COMMON_SET|Manifest: NOSIGNATURE
+		drivebywire-1.20.1-0.1.1.jar                      |Drive-By-Wire Mod             |drivebywire                   |0.1.1               |COMMON_SET|Manifest: NOSIGNATURE
+		trackwork-1.20.1-1.2.3.jar                        |Trackwork Mod                 |trackwork                     |1.2.3               |COMMON_SET|Manifest: NOSIGNATURE
+		ctaw-3.0.5.jar                                    |Create: The Air Wars          |create_the_air_wars           |3.05                |COMMON_SET|Manifest: NOSIGNATURE
+		createenderlink-1.4.0+mc1.20.1-forge.jar          |Create: Ender Link            |createenderlink               |1.4.0               |COMMON_SET|Manifest: NOSIGNATURE
+		maxstuff-1.8.1.jar                                |Maxstuff                      |maxstuff                      |1.8.1               |COMMON_SET|Manifest: NOSIGNATURE
+		createaddition-1.20.1-1.3.3.jar                   |Create Crafts & Additions     |createaddition                |1.20.1-1.3.3        |COMMON_SET|Manifest: NOSIGNATURE
+		Essential (forge_1.20.1).jar                      |Essential                     |essential                     |1.3.10.8            |COMMON_SET|Manifest: NOSIGNATURE
+		tacz_c-1.0.2-forge-1.20.1.jar                     |Timeless and Classics Zero: Cr|tacz_c                        |1.0.2               |COMMON_SET|Manifest: NOSIGNATURE
+	Crash Report UUID: 54242cd5-88fd-4bfc-9b3b-a654844ceaa2
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.0
+	Flywheel Backend: flywheel:off
