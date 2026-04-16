@@ -1,0 +1,57 @@
+# Minecraft instance .gitignore
+# Ignore save files (world data)
+saves/
+
+# Ignore logs
+logs/
+
+# Ignore crash reports (optional, but they can be large)
+crash-reports/
+
+# Ignore screenshots (optional)
+screenshots/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore mod JARs if you want to track only configs (uncomment if needed)
+# mods/*.jar
+
+# But since it's modded, maybe keep mods for version control
+# Uncomment the above if mods are too large
+
+# Ignore user-specific files
+usercache.json
+usernamecache.json
+options.txt
+user-prefs.json
+
+# Ignore datapacks if not needed
+# datapacks/
+
+# Ignore resourcepacks if not needed
+# resourcepacks/
+
+# Ignore shaderpacks
+# shaderpacks/
+
+# Ignore schematics
+# schematics/
+
+# Ignore downloads
+downloads/
+
+# Ignore essential cache
+essential/cache/
+essential/cosmetic-cache/
+essential/image-cache/
+essential/screenshot-cache/
+essential/screenshot-metadata/
+
+# Ignore xaero backups
+xaero/
+XaeroWaypoints_BACKUP*/
+
+# Ignore tacz backup
+tacz_backup/
